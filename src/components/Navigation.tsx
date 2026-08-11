@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, MessageCircle } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 
 const navItems = [
   { label: 'Residences', labelCn: '住宅', href: '#residences' },
@@ -56,9 +56,9 @@ export default function Navigation() {
 
             <div className="hidden lg:flex items-center gap-4">
               <span className="text-[10px] text-beige-100/40 tracking-wider">E (3) 2124</span>
-              <a href="#enquiry" className="flex items-center gap-2 bg-[#07C160] hover:bg-[#06AD56] text-white px-5 py-2.5 text-sm tracking-wider transition-all duration-300 hover:shadow-lg hover:shadow-[#07C160]/20">
-                <MessageCircle size={16} />
-                WeChat
+              <a href="https://wa.me/60123515121" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 bg-[#25D366] hover:bg-[#1DA851] text-white px-5 py-2.5 text-sm tracking-wider transition-all duration-300 hover:shadow-lg hover:shadow-[#25D366]/20">
+                <Phone size={16} />
+                WhatsApp
               </a>
             </div>
 
@@ -81,9 +81,9 @@ export default function Navigation() {
               ))}
               <div className="luxury-divider-wide mt-4" />
               <span className="text-xs text-beige-100/40 tracking-wider">E (3) 2124</span>
-              <a href="#enquiry" onClick={() => setMobileOpen(false)} className="flex items-center gap-2 bg-[#07C160] text-white px-8 py-3 text-sm tracking-wider mt-4">
-                <MessageCircle size={18} />
-                WeChat 咨询
+              <a href="https://wa.me/60123515121" target="_blank" rel="noopener noreferrer" onClick={() => setMobileOpen(false)} className="flex items-center gap-2 bg-[#25D366] text-white px-8 py-3 text-sm tracking-wider mt-4">
+                <Phone size={18} />
+                WhatsApp 咨询
               </a>
             </div>
           </motion.div>
