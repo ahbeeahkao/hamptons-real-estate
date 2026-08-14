@@ -35,7 +35,7 @@ export default function Enquiry() {
   };
 
   return (
-    <section id="enquiry" className="relative py-24 sm:py-32 bg-charcoal-900">
+    <section id="enquiry" className="relative py-24 sm:py-32 bg-charcoal-900" aria-label="Contact and enquiry form">
       <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-gold-500/20 to-transparent" />
       <div className="absolute bottom-0 left-1/2 w-[600px] h-[600px] bg-gold-500/2 rounded-full blur-[150px] -translate-x-1/2 translate-y-1/3" />
 

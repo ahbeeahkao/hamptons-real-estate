@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Sitemap: https://hamptonsre.com.my/sitemap.xml
+
+# Key pages for answer engine crawling
+Allow: /#residences
+Allow: /#properties
+Allow: /#why-choose
+Allow: /#enquiry

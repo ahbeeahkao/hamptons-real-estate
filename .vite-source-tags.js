@@ -5,6 +5,11 @@
  *
  * Active in both dev and build so the element picker works on deployed previews.
  *
+ * This file is the canonical source; it is shipped as a `.vite-source-tags.js`
+ * dotfile inside generated workspaces (see visual_picker.py and the
+ * pool-replenisher / worker-executor Dockerfiles). Keep the dotfile copy at
+ * ../webapps/.vite-source-tags.js byte-identical to this file.
+ *
  * Uses @babel/parser, @babel/traverse, and @babel/generator which are already
  * transitive dependencies of @vitejs/plugin-react (no extra install needed).
  */
@@ -91,3 +96,6 @@ export function sourceTags() {
     },
   };
 }
+
+// Back-compat alias: older injected vite.config templates imported this name.
+export const agonSourceTags = sourceTags;

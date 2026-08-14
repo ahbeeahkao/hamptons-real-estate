@@ -17,7 +17,7 @@ const longTermFeatures = [
 
 export default function Residences() {
   return (
-    <section id="residences" className="relative py-24 sm:py-32">
+    <section id="residences" className="relative py-24 sm:py-32" aria-label="Residence types">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 mb-16 sm:mb-20">
         <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.8 }} className="text-center">
           <span className="text-gold-500/60 text-xs tracking-[0.4em] uppercase block mb-4">Tailored Living</span>

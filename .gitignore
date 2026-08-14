@@ -24,3 +24,6 @@ dist-ssr
 *.sw?
 .vite-source-tags.js
 .vercel
+src/components_old
+public_old
+node_modules_broken

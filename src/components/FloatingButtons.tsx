@@ -25,49 +25,23 @@ export default function FloatingButtons() {
               <div className="w-32 h-32 bg-white p-1.5 mx-auto mb-3">
                 <div className="w-full h-full bg-charcoal-950 flex items-center justify-center">
                   <svg viewBox="0 0 100 100" className="w-28 h-28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect x="5" y="5" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/>
-                    <rect x="10" y="10" width="15" height="15" rx="1" fill="#C9A96E"/>
-                    <rect x="70" y="5" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/>
-                    <rect x="75" y="10" width="15" height="15" rx="1" fill="#C9A96E"/>
-                    <rect x="5" y="70" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/>
-                    <rect x="10" y="75" width="15" height="15" rx="1" fill="#C9A96E"/>
-                    <rect x="35" y="5" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="45" y="5" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="55" y="5" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="15" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="50" y="15" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="25" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="45" y="25" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="5" y="35" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="15" y="35" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="25" y="40" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="35" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="45" y="40" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="55" y="35" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="65" y="40" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="75" y="35" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="85" y="40" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="5" y="50" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="15" y="55" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="25" y="50" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="55" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="45" y="50" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="55" y="55" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="65" y="50" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="75" y="55" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="85" y="50" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="65" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="50" y="70" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="65" y="65" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="75" y="70" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="85" y="65" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="35" y="80" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="50" y="85" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="65" y="80" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="75" y="85" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="85" y="80" width="5" height="5" fill="#C9A96E"/>
-                    <rect x="70" y="70" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/>
-                    <rect x="78" y="78" width="10" height="10" rx="1" fill="#C9A96E"/>
+                    <rect x="5" y="5" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/><rect x="10" y="10" width="15" height="15" rx="1" fill="#C9A96E"/>
+                    <rect x="70" y="5" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/><rect x="75" y="10" width="15" height="15" rx="1" fill="#C9A96E"/>
+                    <rect x="5" y="70" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/><rect x="10" y="75" width="15" height="15" rx="1" fill="#C9A96E"/>
+                    <rect x="35" y="5" width="5" height="5" fill="#C9A96E"/><rect x="45" y="5" width="5" height="5" fill="#C9A96E"/><rect x="55" y="5" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="15" width="5" height="5" fill="#C9A96E"/><rect x="50" y="15" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="25" width="5" height="5" fill="#C9A96E"/><rect x="45" y="25" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="5" y="35" width="5" height="5" fill="#C9A96E"/><rect x="15" y="35" width="5" height="5" fill="#C9A96E"/><rect x="25" y="40" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="35" width="5" height="5" fill="#C9A96E"/><rect x="45" y="40" width="5" height="5" fill="#C9A96E"/><rect x="55" y="35" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="65" y="40" width="5" height="5" fill="#C9A96E"/><rect x="75" y="35" width="5" height="5" fill="#C9A96E"/><rect x="85" y="40" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="5" y="50" width="5" height="5" fill="#C9A96E"/><rect x="15" y="55" width="5" height="5" fill="#C9A96E"/><rect x="25" y="50" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="55" width="5" height="5" fill="#C9A96E"/><rect x="45" y="50" width="5" height="5" fill="#C9A96E"/><rect x="55" y="55" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="65" y="50" width="5" height="5" fill="#C9A96E"/><rect x="75" y="55" width="5" height="5" fill="#C9A96E"/><rect x="85" y="50" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="65" width="5" height="5" fill="#C9A96E"/><rect x="50" y="70" width="5" height="5" fill="#C9A96E"/><rect x="65" y="65" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="75" y="70" width="5" height="5" fill="#C9A96E"/><rect x="85" y="65" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="35" y="80" width="5" height="5" fill="#C9A96E"/><rect x="50" y="85" width="5" height="5" fill="#C9A96E"/><rect x="65" y="80" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="75" y="85" width="5" height="5" fill="#C9A96E"/><rect x="85" y="80" width="5" height="5" fill="#C9A96E"/>
+                    <rect x="70" y="70" width="25" height="25" rx="2" stroke="#C9A96E" strokeWidth="3" fill="none"/><rect x="78" y="78" width="10" height="10" rx="1" fill="#C9A96E"/>
                   </svg>
                 </div>
               </div>

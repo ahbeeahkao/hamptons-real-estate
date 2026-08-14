@@ -6,22 +6,30 @@ import Properties from './components/Properties';
 import WhyChoose from './components/WhyChoose';
 import HamptonsDifference from './components/HamptonsDifference';
 import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
 import Enquiry from './components/Enquiry';
 import Footer from './components/Footer';
 import FloatingButtons from './components/FloatingButtons';
 
 function App() {
   return (
-    <div className="min-h-screen bg-charcoal-950">
+    <div
+      className="min-h-screen bg-charcoal-950"
+      itemScope
+      itemType="https://schema.org/WebPage"
+    >
       <Navigation />
-      <Hero />
-      <TrustBar />
-      <Residences />
-      <Properties />
-      <WhyChoose />
-      <HamptonsDifference />
-      <Testimonials />
-      <Enquiry />
+      <main>
+        <Hero />
+        <TrustBar />
+        <Residences />
+        <Properties />
+        <WhyChoose />
+        <HamptonsDifference />
+        <Testimonials />
+        <FAQ />
+        <Enquiry />
+      </main>
       <Footer />
       <FloatingButtons />
     </div>
